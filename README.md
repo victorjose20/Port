@@ -3,5 +3,10 @@
 
 # Descrição 
   Este site foi desenvolvido para apresentar algumas aplicações que eu criei, demonstrando suas funcionalidades e utilidades.
+
+## Tecnologias
+- React
+- Tailwind
+
   
 
