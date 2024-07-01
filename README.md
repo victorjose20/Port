@@ -6,6 +6,7 @@
 
 ## Tecnologias
 - React
+  - React-icons
 - Tailwind
 
   
