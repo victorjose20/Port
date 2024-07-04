@@ -18,7 +18,7 @@ const Sobre = () =>{
             <aside className="animate-slideIn ">
                 <img className="border-solid rounded-full w-96 // max-ce:w-52 max-ce:mt-4 /// max-sm:mt-10" src={MinhaFoto} alt="" />
                 
-                <Botao  fileName="VictorJ.pdf" />
+                <Botao  fileName="front-victor.pdf" />
             </aside>
             
            

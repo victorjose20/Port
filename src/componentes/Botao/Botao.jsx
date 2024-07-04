@@ -2,7 +2,7 @@
 
 const Botao = () =>{
     const cv = () =>{
-        const pdfUrl = 'VictorJ.pdf';
+        const pdfUrl = 'front-victor.pdf';
         const link = document.createElement("a");
         link.href = pdfUrl;
         link.download = "VictorJose.pdf";
