@@ -5,7 +5,7 @@ const Botao = () =>{
         const pdfUrl = 'front-victor.pdf';
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "VictorJose.pdf";
+        link.download = "VictorAraujo.pdf";
         document.body.appendChild(link);
         link.click()
         document.body.removeChild(link);
