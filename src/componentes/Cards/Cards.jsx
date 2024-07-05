@@ -35,7 +35,7 @@ const Cards = () => {
     <>
       <div>
        
-        <button className="absolute left-20 top-[10%]   bg-white text-black font-bold p-2 rounded-full animate-slideIn // max-sm:left-4 /// 2xl:top-[30rem] "
+        <button className="absolute left-20 top-1/2  bg-white text-black font-bold p-2 rounded-full animate-slideIn // max-sm:left-4 /// 2xl:top-[30rem] "
           onClick={anterior}
         >
           {"<"}
@@ -61,7 +61,7 @@ const Cards = () => {
 
         </div>
 
-        <button className="absolute right-16 top-[10%]  bg-white text-black font-bold p-2 rounded-full animate-slideIn // max-sm:right-4 /// 2xl:top-[30rem]"
+        <button className="absolute right-16 top-1/2  bg-white text-black font-bold p-2 rounded-full animate-slideIn // max-sm:right-4 /// 2xl:top-[30rem]"
           onClick={proximo}
         >
           {">"}
