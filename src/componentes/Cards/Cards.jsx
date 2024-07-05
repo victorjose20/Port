@@ -35,7 +35,7 @@ const Cards = () => {
     <>
       <div>
        
-        <button className="absolute left-20 top-[100rem]    bg-white text-black font-bold p-2 rounded-full animate-slideIn // max-sm:left-8 max-sm:top-[115rem] /// 2xl:top-[150rem] "
+        <button className="absolute left-20 top-[10%]   bg-white text-black font-bold p-2 rounded-full animate-slideIn // max-sm:left-4 /// 2xl:top-[30rem] "
           onClick={anterior}
         >
           {"<"}
@@ -43,7 +43,7 @@ const Cards = () => {
         <div className="flex flex-col w-full h-screen justify-center items-center gap-5  animate-slideIn //  ">
         <h1 className="text-white text-center text-4xl">Projetos</h1>
 
-          <div className="relative w-3/4 h-3/4 border rounded-xl overflow-hidden text-center shadow-soft-white // max-ce:" >
+          <div className="relative w-3/4 h-3/5 border rounded-xl overflow-hidden text-center shadow-soft-white // max-ce:" >
 
             <img src={fotos[numeroDoItem].imagem} alt="" className='  mb-5 h-full w-full object-cover ' />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-black bg-opacity-80">
@@ -61,7 +61,7 @@ const Cards = () => {
 
         </div>
 
-        <button className="absolute right-16 top-[100rem]   bg-white text-black font-bold p-2 rounded-full animate-slideIn  max-sm:right-4  max-sm:top-[115rem] /// 2xl:top-[150rem] "
+        <button className="absolute right-16 top-[10%]  bg-white text-black font-bold p-2 rounded-full animate-slideIn // max-sm:right-4 /// 2xl:top-[30rem]"
           onClick={proximo}
         >
           {">"}

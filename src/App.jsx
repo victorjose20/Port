@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <main className=" font-ft">
+    <main className=" font-ft ">
       <Nav />
       <Inicio/>
       <Sobre/>

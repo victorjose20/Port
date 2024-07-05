@@ -10,9 +10,9 @@ export default {
     },
     extend: {
       inset: {
-        '100rem': '100rem',
-        '115rem': '115rem',
-        '150rem': '150rem',
+        '30rem': '30rem',
+        '10%': '10%',
+       
       },
       screens: {
         'max-ce': {'max': '375px'},
