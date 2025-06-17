@@ -8,11 +8,7 @@ function App() {
 
 
   return (
-<<<<<<< HEAD
     <main className=" font-ft">
-=======
-    <main className=" font-ft ">
->>>>>>> 13b0676d93b391e9d162843d589550e827b24590
       <Nav />
       <Inicio/>
       <Sobre/>

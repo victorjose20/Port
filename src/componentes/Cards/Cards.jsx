@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 import todo from "./imagens/NovoTodoList.png"
 import advice from "./imagens/advice.png"
 import base from "./imagens/base.png"
 import maratona from "./imagens/maratona.png"
 import page from "./imagens/landingPage.png"
 import url from "./imagens/encurtadoDeLink.png"
+=======
+import todo from "./imagens/todo.png"
+import advice from "./imagens/advice.png"
+import base from "./imagens/base.png"
+>>>>>>> 13b0676d93b391e9d162843d589550e827b24590
 import interactive from "./imagens/interactive.png"
 import { useState } from 'react'
 
@@ -13,6 +19,7 @@ const Cards = () => {
   const [numeroDoItem, setnumeroDoItem] = useState(0);
 
   const fotos = [
+<<<<<<< HEAD
     { id: 1, imagem: todo, titulo: 'To do list com react', descricao: "Um to do list onde você pode salvar, alterar e excluir tarefas. Todas as informações ficam salvas no localStorage do seu navegador.", git: 'https://github.com/victorjose20/TodoListReact', page: 'https://todo-list-react-two-mocha.vercel.app' },
     { id: 2, imagem: advice, titulo: 'Advice generator app main', descricao: "É um gerador de conselho que usa uma api.", git: 'https://github.com/victorjose20/advice-generator-app-main', page: 'https://victorjose20.github.io/advice-generator-app-main/' },
     { id: 3, imagem: base, titulo: 'Base apparel coming soon master', descricao: "Esta pagina mostra se o email inserido nao esta correto e tambem avisa quando o campo esta em branco.", git: 'https://github.com/victorjose20/base-apparel-coming-soon-master', page: 'https://victorjose20.github.io/base-apparel-coming-soon-master/' },
@@ -21,6 +28,12 @@ const Cards = () => {
     { id: 6, imagem: url, titulo: 'CortaLinks', descricao: "Um encurtador de URLS", git: 'https://github.com/victorjose20/CortaLink', page: 'https://corta-link.vercel.app' },
     { id: 7, imagem: page, titulo: 'LandingPage', descricao: "Uma landing Page", git: 'https://github.com/victorjose20/landing-page', page: 'https://landing-page-six-omega-10.vercel.app' },
 
+=======
+    { id: 1, imagem: todo, titulo: 'To do list', descricao: "Um to do list onde você pode salvar, alterar e excluir tarefas. Todas as informações ficam salvas no localStorage do seu navegador.", git: 'https://github.com/victorjose20/todo-list', page: 'https://victorjose20.github.io/todo-list/' },
+    { id: 2, imagem: advice, titulo: 'Advice generator app main', descricao: "É um gerador de conselho que usa uma api.", git: 'https://github.com/victorjose20/advice-generator-app-main', page: 'https://victorjose20.github.io/advice-generator-app-main/' },
+    { id: 3, imagem: base, titulo: 'Base apparel coming soon master', descricao: "Esta pagina mostra se o email inserido nao esta correto e tambem avisa quando o campo esta em branco.", git: 'https://github.com/victorjose20/base-apparel-coming-soon-master', page: 'https://victorjose20.github.io/base-apparel-coming-soon-master/' },
+    { id: 4, imagem: interactive, titulo: 'Interactive rating component main', descricao: "É componente de classificação interativo.", git: 'https://github.com/victorjose20/interactive-rating-component-main', page: 'https://victorjose20.github.io/interactive-rating-component-main/' },
+>>>>>>> 13b0676d93b391e9d162843d589550e827b24590
 
 
   ]
