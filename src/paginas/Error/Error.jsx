@@ -4,7 +4,7 @@ const Error = () =>{
     const navegar = useNavigate()
     return(
         <>
-            <main className="w-screen h-screen flex justify-center items-center bg-black ">
+            <main className="w-full h-screen flex justify-center items-center bg-black ">
                 <div className="w-2/4 h-2/4 flex justify-center items-center flex-col bg-white text-center rounded-xl animate-slideIn ">
                     <h1 className="font-bold text-3xl">Pagina não encontrada!!</h1>
                     <p className="font-bold text-2x1">Clique no botão para voltar a ultima pagina</p>

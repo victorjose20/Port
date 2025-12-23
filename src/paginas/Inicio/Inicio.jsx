@@ -4,7 +4,7 @@ import github from "./icones/github.png"
 const Inicio = () =>{
     return(
         <div className=""  id="Inicio">
-        <main className="flex justify-center flex-col items-center  w-screen h-screen text-4xl lg:text-5xl bg-black   // ">
+        <main className=" flex justify-center flex-col items-center  w-screen h-screen text-4xl lg:text-5xl bg-black   // ">
             <h1 className="text-white animate-slideIn // max-ce:text-4xl /// max-xs:text-2xl">Olá eu sou Victor José</h1>
             <h1 className="text-white animate-slideIn // max-ce:text-4xl /// max-xs:text-2xl">E sou um desenvolvedor Frontend</h1>
             <div  className="flex flex-row mt-5 gap-5">
